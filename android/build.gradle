@@ -3,6 +3,7 @@ version '1.0-SNAPSHOT'
 
 buildscript {
     repositories {
+        maven { url "http://jcenter.bintray.com" }
         google()
         jcenter()
     }
